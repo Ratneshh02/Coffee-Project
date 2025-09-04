@@ -1,0 +1,41 @@
+# ===============================
+# PHP / Composer
+# ===============================
+/vendor/
+composer.lock
+
+# ===============================
+# Node / npm (if used for frontend)
+# ===============================
+/node_modules/
+package-lock.json
+
+# ===============================
+# Environment & Config
+# ===============================
+.env
+*.env
+
+# ===============================
+# Logs / Cache / Temp files
+# ===============================
+*.log
+*.cache
+*.tmp
+*.bak
+*.swp
+
+# ===============================
+# System files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# IDE / Editor settings
+# ===============================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
